@@ -1,0 +1,84 @@
+/* changes the whole pages background color */
+#body {
+  background-color: cornflowerblue;
+}
+
+/* centers button */
+#reset {
+ min-height: 34px;
+ min-width: 50px;
+ display: block;
+ margin: auto;
+ background-color: blueviolet;
+}
+
+/* styles all rows  */
+.tier-row {
+  display: flex;
+}
+
+/* styles all tier labels */
+.tier-label {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 10%;
+  border: 1px solid;
+  text-align: center;
+}
+/* styles tier items conainer */
+.tier-items {
+  display: flex;
+  width: 75%;
+  border: 1px solid;
+  background-color: cadetblue;
+
+}
+
+/* styles the border of clicked items */
+.border {
+  border: 3px solid;
+  border-color: darkred;
+}
+
+/* changes all image dimensions */
+.img {
+  width: 100px;
+  height: 100px;
+}
+/* centers title */
+.title {
+  text-align: center;
+}
+
+
+
+
+/* changes s tier labels background color */
+.s-tier {
+  background-color: red;
+}
+/* changes a tier labels background color */
+.a-tier {
+  background-color: orange;
+}
+/* changes b tier labels background color */
+.b-tier {
+  background-color: yellow;
+}
+/* changes c tier labels background color */
+.c-tier {
+  background-color: green;
+}
+/* changes d tier labels background color */
+.d-tier {
+  background-color: blue;
+}
+/* changes f tier labels background color */
+.f-tier {
+  background-color: pink;
+}
+
+
+.img.dragging{
+  opacity: .5;
+}
